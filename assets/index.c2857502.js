@@ -1,0 +1,1 @@
+import{d as t,r as o,aX as n,o as s,aY as r,w as c,f as l,a_ as u}from"./index.f96e5df6.js";const m=t({setup(p){const e=o("\u83DC\u5355\u7BA1\u7406");return(_,i)=>{const a=n("PageContainer");return s(),r(a,null,{default:c(()=>[l("h2",null,u(e.value),1)]),_:1})}}});export{m as default};
