@@ -8,8 +8,8 @@
 
   const loading = ref(false);
   const formState = reactive<UserLoginParams>({
-    account: '',
-    pwd: '',
+    account: 'admin',
+    pwd: '12345678',
   });
 
   const onFinish = (values: any) => {

@@ -30,7 +30,7 @@
         <HeaderWrapper :isMobile="isMobile" />
         <ContentWrapper />
         <a-layout-footer v-if="showFooter">
-          <div class="ant-pro-global-footer-copyright">Copyright &copy; 汇羲科技</div>
+          <div class="ant-pro-global-footer-copyright">Copyright &copy;</div>
         </a-layout-footer>
       </a-layout>
     </a-layout>
