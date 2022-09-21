@@ -18,6 +18,7 @@ import { viteMockServe } from 'vite-plugin-mock';
 export default defineConfig(({ command, mode }) => {
   const { VITE_APP_TITLE } = loadEnv(mode, process.cwd());
   return {
+    base: './',
     plugins: [
       vue(),
       Components({
